@@ -8,7 +8,6 @@ Traceback (most recent call last):
   File "C:\Users\sanga\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
     retVal = locate(image, screenshotIm, **kwargs)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-checando vida...
   File "C:\Users\sanga\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
     points = tuple(locateAll(needleImage, haystackImage, **kwargs))
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -20,10 +19,11 @@ During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "C:\Users\sanga\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1045, in _bootstrap_inner
+checando vida...
     self.run()
   File "C:\Users\sanga\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 982, in run
     self._target(*self._args, **self._kwargs)
-  File "c:\Users\sanga\OneDrive\Documents\abwasp35\main.py", line 151, in run        
+  File "c:\Users\sanga\OneDrive\Documents\abwasp35\main.py", line 154, in run
     if not actions.check_anchor():
            ^^^^^^^^^^^^^^^^^^^^^^
   File "c:\Users\sanga\OneDrive\Documents\abwasp35\actions.py", line 38, in check_anchor
